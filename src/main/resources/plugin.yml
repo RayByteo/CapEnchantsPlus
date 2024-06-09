@@ -1,0 +1,13 @@
+name: CapEnchants
+main: com.kleidion.capenchants.CapEnchants
+version: 1.0
+api-version: 1.16
+commands:
+  cap:
+    description: Sets the maximum level for an enchantment
+    usage: /<command> <enchantment> <level>
+    permission: capenchants.cap
+permissions:
+  capenchants.cap:
+    description: Allows the user to cap enchantments
+    default: op
